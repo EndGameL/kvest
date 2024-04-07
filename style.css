@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    font-family: "Nunito";
+}
+@font-face {
+    font-family: "Nunito";
+    src: local(Nunito), url(./img/Nunito-VariableFont_wght.ttf);
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    background-color: rgb(76, 252, 252);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    min-height: 500px;
+}
+button{
+    border: none;
+    padding: 20px 25px;
+    background-color: rgb(255, 176, 72);
+    cursor: pointer;
+    font-size: 32px;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: rgb(250, 226, 197);
+}
+input{
+    outline: none;
+}
+img{
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 20px;
+}
+.descr{
+    font-size: 20px;
+    width: 400px;
+}
+.cont{
+    border: solid 2px red;
+    background-color: white;
+    padding: 0 20px;
+    border-radius: 10px;
+    margin-top: 0;
+}
+.title{
+    color: red;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.warp {
+    display: none;
+}
